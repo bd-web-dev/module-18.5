@@ -1,0 +1,13 @@
+// 5. Combining Arrays
+// Instructions:
+
+// Create two arrays of your choice.
+// Use the concat method to combine the two arrays into a new array.
+// Print both the original arrays and the combined array using console.log().
+
+const array1 = [1, 2, 3];
+const array2 = [3, 2, 1];
+console.log("Array 1: " + array1);
+console.log("Array 2: " + array2);
+const newArray = array1.concat(array2);
+console.log("New Array: " + newArray);
